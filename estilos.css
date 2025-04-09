@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ====== BASE ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: aliceblue;
+}
+header{
+    background-color: #324590;
+    color: white;
+}
+header .texto{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+.header {
+    justify-content: center;
+    display: flex;
+    gap: 90px;
+    margin-top: 80px;
+    height: 300px;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* Contenedor del nav ajustado con ícono a la derecha */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2b902;
+    height: 80px;
+    padding: 0 40px;
+}
+
+/* Lista de navegación centrada */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+}
+
+/* Ítems del menú */
+.nav-list li {
+    margin-top: 25px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(251, 254, 255);
+    text-shadow: 0 0 15px #c0ff04;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.login-icon img:hover {
+    transform: scale(1.1);
+}
+
+
+.nivel {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.nivel a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nivel .primaria:hover{
+    box-shadow: 0 0 60px #bbff00;
+    -webkit-transform: scale(1.13);
+    transition: 1s;
+    transform: 3s;
+    overflow: hidden;
+}
+.nivel .secundaria:hover{
+    box-shadow: 0 0 60px #01fd2f;
+    -webkit-transform: scale(1.1);
+    transition: 1s;
+    transform: 3s;
+    overflow: hidden;
+}
+.primaria img{
+    width: 400px;
+    height: 250px;
+    border: 2px solid #ffd000;
+    border-radius: 15px;
+}
+.primaria{
+    background-color: #ffd000;
+    border-radius: 15px;
+    width: 400px;
+}
+.secundaria img{
+    width: 400px;
+    height: 250px;
+    border: 2px solid #7bff00;
+    border-radius: 15px;
+}
+.secundaria{
+    background-color: #7bff00;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*Estilos del index2.html*/
+.grados{
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+    margin: 200px auto 0 auto;
+    gap: 20px;
+    text-align: center;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 10px auto 10px auto;
+}
+.titulo {
+    text-align: center;
+}
+div {
+    padding: 15px 0 15px 0;
+    border-radius: 20px;
+}
+.item1 {
+    background-color: #2060d7;
+    width: 200px;
+}
+.item2 {
+    background-color: #c0ff04;
+    width: 200px;
+}
+.item3 {
+    background-color: aqua;
+    width: 200px;
+}
+.item4 {
+    background-color: coral;
+    width: 200px;
+}
+.item5 {
+    background-color: blueviolet;
+    width: 200px;
+}
+.item6 {
+    background-color: darkseagreen;
+    width: 200px;
+}
