@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="contactos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="contactos.html">CONTACTOS</a></li>
+            </ul>
+            <!-- Imagen de iniciar sesión con enlace -->
+            <div class="login-icon">
+                <a href="login.html" title="Iniciar sesión">
+                    <img src="img/usuario.png" alt="Iniciar sesión" />
+                </a>
+            </div>
+
+        </nav>
+        <div class="header">
+            <div class="img">
+                <img src="img/Insignia.jpg" alt="">
+            </div>
+            <div class="texto">
+                <h1>Colegio</h1>
+                <h3>José Gálvez</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenidos-paginas">
+		<div class="centro3">
+			<h5>
+				<em class="encabezados t1">Contacta con</em> 
+				<em class="encabezados t2">Nosotros</em>
+			</h5>
+			<p class="descripcion-pagina">
+				Somos una empresa de regalos personalizados.Buscamos ofrecer opciones de regalos
+                que puedan transmitir un significado emocional para todos nuestros clientes, ya 
+                sea a través de nuestros productos o la personalización de los mismos.
+			</p>
+        </div>    
+
+		<div id="contenido-nosotros">
+				
+			<div id="izquierda">
+				<p class="descripcion-pagina texto-contacto">
+					En este año 2025, en el distrito de Río Negro podemos encontrar a «Colegio JOSE GALVEZ - Rio Negro». Sus datos completos de ubicación y de contacto son públicos.<br>
+					Teléfono: <strong>(042) 526560</strong><br>
+					Celular: <strong>+51 951 236 874</strong><br>
+					Email: <strong><a href="mailto: nanaregalos@gmail.com" class="email-contacto">nanaregalos@gmail.com</a></strong>
+				</p>
+			</div>	
+			<div id="derecha">
+				<form action="contactoBD.php" method="POST">
+				    <input type="text" name="nombre" id="nombre"
+                    placeholder="Ingresa tu nombre" class="nombre-mensaje">
+					<br>
+					<input type="email" name="correo" id="correo"
+                    placeholder="Ingresa tu correo" class="email-asunto">
+
+					<input type="text" name="asunto" id="asunto"
+                    placeholder="Ingresa el asunto" class="email-asunto"><br>
+
+					<textarea name="comentario" id="comentario"
+                    placeholder="Ingrese su mensaje " class="nombre-mensaje"></textarea><br>
+
+					<input type="submit" name="enviar" value="Enviar consulta">
+				</form>
+			</div>
+				<div id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.708751571283!2d-74.66432332495175!3d-11.20917138896711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910bc752aabe5b3b%3A0xe742a42dcab4af5e!2zQ29sZWdpbyBKb3PDqSBHw6FsdmV6!5e0!3m2!1sen!2spe!4v1744353560405!5m2!1sen!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+		</div>
+	</div>
+    
+    <footer>
+        <p>Copyright & Areli, Fiorella, Angela y Jose</p>
+    </footer>
